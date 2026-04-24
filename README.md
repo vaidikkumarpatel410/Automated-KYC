@@ -57,7 +57,8 @@ KYC/ │ ├── backend/ │   ├── config/ │   ├── controller/ 
 ## Installation & Setup
 
 ### 1. Clone the repository
-bash git clone https://github.com/vaidikkumarpatel410/Automated-KYC.git cd Automated-KYC 
+bash git clone https://github.com/vaidikkumarpatel410/Automated-KYC.git 
+cd Automated-KYC 
 
 
 
@@ -65,15 +66,21 @@ bash git clone https://github.com/vaidikkumarpatel410/Automated-KYC.git cd Autom
 bash cd backend npm install 
 
 Create a .env file:
-PORT=5000 MONGO_URI=your_mongodb_connection JWT_SECRET=your_secret_key
+PORT=5000 
+MONGO_URI=your_mongodb_connection 
+JWT_SECRET=your_secret_key
 
 Run backend:
-bash npm run dev 
+bash :
+npm run dev 
 
 
 
 ### 3. Frontend Setup
-bash cd frontend npm install npm run dev 
+bash :
+cd frontend 
+npm install 
+npm run dev 
 
 
 
@@ -113,12 +120,6 @@ Contributions are welcome!
 Feel free to fork the repo and submit a pull request.
 
 
-
-## License
-
-This project is licensed under the MIT License.
-
----
 
 ## Author
 

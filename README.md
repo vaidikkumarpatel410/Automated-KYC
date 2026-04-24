@@ -51,8 +51,52 @@ This project demonstrates a real-world fintech workflow with authentication, rol
 
 ## 📂 Project Structure
 
-KYC/ │ ├── backend/ │   ├── config/ │   ├── controller/ │   ├── middleware/ │   ├── models/ │   ├── routes/ │   ├── services/ │   └── server.js │ ├── frontend/ │   ├── src/ │   ├── public/ │   └── index.html │ └── README.md
-
+Automated-KYC/
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/              # DB, environment configs
+│   │   ├── controllers/         # Route logic
+│   │   ├── services/            # Business logic (OCR, etc.)
+│   │   ├── models/              # Mongoose schemas
+│   │   ├── routes/              # API routes
+│   │   ├── middleware/          # Auth, upload, error handling
+│   │   ├── utils/               # Helper functions (tokens, etc.)
+│   │   ├── validations/         # Request validation (optional)
+│   │   ├── constants/           # Static values
+│   │   ├── app.js               # Express app config
+│   │   └── server.js            # Entry point
+│   │
+│   ├── uploads/                # Uploaded documents (ignored in git)
+│   ├── tests/                  # Backend tests
+│   ├── .env
+│   ├── .env.example
+│   ├── .gitignore
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── assets/             # Images, icons
+│   │   ├── components/         # Reusable UI components
+│   │   ├── pages/              # Screens/pages
+│   │   ├── layouts/            # Layout wrappers
+│   │   ├── routes/             # Routing logic
+│   │   ├── context/            # Global state (AuthContext)
+│   │   ├── hooks/              # Custom hooks
+│   │   ├── services/           # API calls
+│   │   ├── utils/              # Helpers
+│   │   ├── constants/          # Static data
+│   │   ├── styles/             # Global styles
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── public/
+│   ├── .env
+│   ├── .gitignore
+│   └── package.json
+│
+├── .gitignore
+└──  README.md
 
 ## Installation & Setup
 
